@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Попереджувальні знаки</title>
+    <link rel="stylesheet" href="../src/css/categories.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h2><a href="../index.html">Знаки ПДР</a></h2>
+            <h3>> Заборонні знаки</h3>
+        </div>
+        <!-- <div>
+            <button>Сховати</button>
+        </div> -->
+        <div>
+            <h3 id="counter">Знаків: 0/45</h3>
+        </div>
+    </header>
+    <hr>
+    <main>
+        <div id="sign">
+            <img id="sign-photo" src=''>
+            <h4 id="number"></h4>
+            <h4 id="answer"></h4>
+        </div>
+        <div id="btns">
+            <div>
+                <button onclick="backImage()">Назад</button>
+                <button onclick="nextImage()">Наступний знак</button>
+            </div>
+            <div>
+                <button id="show" onclick="showAnswer()">Показати відповідь</button>
+            </div>
+        </div>
+    </main>
+    <script src="../src/js/banned.js"></script>
+</body>
+
+</html>
