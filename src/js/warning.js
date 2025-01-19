@@ -77,7 +77,7 @@ function nextImage() {
     blacklist.push(randomIndex);
 
     do {
-        randomIndex = Math.floor(Math.random() * 59);
+        randomIndex = Math.floor(Math.random() * 58+1);
     } while (blacklist.includes(randomIndex));
 
     count++;
